@@ -1,0 +1,74 @@
+/** @format */
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	display: flex;
+	align-content: space-around;
+	justify-content: center;
+}
+.container1,
+.left,
+.right {
+	height: 519px;
+	background-color: #fff;
+	color: #0000005c;
+	width: 384px;
+	padding: 5px;
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+input {
+	height: 39px;
+	width: 250px;
+	border: none;
+	border-bottom: 1px solid #0000005c;
+	font-family: "Tulpen One", cursive;
+	font-size: 24px;
+}
+input:focus {
+	border: none;
+}
+.render {
+	height: 200px;
+	width: 150px;
+}
+button {
+	height: 38px;
+	width: 174px;
+	border-radius: 20px;
+	border: none;
+	background-color: darkcyan;
+	color: aliceblue;
+	font-size: 26px;
+
+	font-family: "Tulpen One", cursive;
+}
+h2 {
+	font-size: 44px;
+	font-family: "Tulpen One", cursive;
+	margin: 0;
+	font-weight: bold;
+	color: cadetblue;
+}
+.h2 {
+	text-decoration: none;
+}
+p {
+	font-family: "Tulpen One", cursive;
+	margin: 0;
+	color: dimgray;
+}
+.link {
+	text-decoration: none;
+	color: cadetblue;
+	/* font-family: "Tulpen One", cursive; */
+	font-size: 11px;
+	font-weight: bold;
+}
